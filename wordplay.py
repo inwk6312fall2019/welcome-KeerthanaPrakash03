@@ -1,4 +1,4 @@
-myfile=open('greenteapress.com/thinkpython2/code/words.txt')
+myfile=open("http://thinkpython2.com/code/words.txt")
 for line in myfile:
     if len(line)>20:
        word=line.strip()
